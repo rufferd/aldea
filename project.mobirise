@@ -77,7 +77,7 @@
             "imageSize": 50,
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1123.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
@@ -231,7 +231,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x934.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
               "width": 1400,
               "link": "index.html#map2-b",
               "alt": "асаса",
