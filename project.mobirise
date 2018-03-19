@@ -12,17 +12,17 @@
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#b8312f",
-        "titleFont": "Montserrat",
+        "titleFont": "Open Sans Condensed",
         "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
+        "textFont": "Lora",
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 14,
+    "uniqCompNum": 15,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -50,33 +50,38 @@
               "color": "#28324e"
             },
             ".mbr-section-title": {
-              "color": "#28324e",
+              "color": "#15203e",
               "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "30px"
+            },
+            ".mbr-section-lead P": {
+              "font-size": "25px",
+              "color": "#28324e"
             }
           },
           "_anchor": "header1-c",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "parallax": false,
+            "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1334.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
             "bgColor": "#7e9b9f",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#000",
+            "overlayOpacity": "0.9",
+            "overlayColor": "#7387b7",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": false
           },
-          "title": "INTRO1: Алдея Инвест ЕООД",
-          "text": "Изкупува черни и цветни метали, електронен скрап от трииистаааа години брааат...<br>Топ цени!!!<br>и датира от времето цар Леонид,<br>който известен пълководец в Спаааартаааааа.",
+          "title": "ЖИЛИЩНА &nbsp;СГРАДА &nbsp;1",
+          "text": "<p>Сградата ще разполага с:&nbsp;&nbsp;&nbsp;&nbsp;<br>* едностайни апартаменти;<br>* двустайни апартаменти;<br>* тристайни апартаменти; <br>* партерни апартаменти с прилежащ двор;<br>*паркоместа и гаражи.</p><p>Сградата е се намира на а улица \"Георги Стратиев\" в район с ниско жилищно застрояване и бърз достъп до Околовръстен път. Разполага с панорамен изглед към парк \"Витоша\". &nbsp;В близост до хипермаркети и заведения за хранене.</p><br><p><br><br><br></p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
@@ -84,32 +89,36 @@
             "Theme"
           ],
           "_name": "header2",
-          "_anchor": "header2-1",
+          "_anchor": "header2-e",
           "_params": {
             "imageSize": 50,
             "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1123.jpg",
-            "bgColor": "#7e9b9f",
-            "bgColorRadio": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1334.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
+            "overlayOpacity": "0.9",
+            "overlayColor": "#7387b7",
             "inverse": false,
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "showArrow": true
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+              "src": "@PROJECT_PATH@/assets/images/05-1400x787.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -123,9 +132,23 @@
               "size": 250
             }
           },
-          "title": "INTRO 2<br>",
-          "text": "Текст .... текст .......<br>........",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "title": "ЖИЛИЩНА  СГРАДА  1",
+          "text": "Сградата ще разполага с:    <br>* едностайни апартаменти;<br>* двустайни апартаменти;<br>* тристайни апартаменти; <br>* партерни апартаменти с прилежащ двор;<br>*паркоместа и гаражи.<br><br>Намира на а улица \"Георги Стратиев\" в район с ниско жилищно застрояване и бърз достъп до Околовръстен път. Разполага с панорамен изглед към парк \"Витоша\".  В близост до хипермаркети и заведения за хранене.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#slider2-a\" data-toolbar=\"-mbrBtnMove\">Проект</a>",
+          "_styles": {
+            ".mbr-section-text": {
+              "font-size": "25px",
+              "text-align": "right"
+            },
+            ".mbr-section-title": {
+              "text-align": "right"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "20px"
+            }
+          }
         },
         {
           "_styles": {
@@ -228,7 +251,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/10-2000x1125.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -242,7 +265,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/12-2000x1125.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -284,7 +307,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
-            "bgColor": "#7e9b9f",
+            "bgColor": "#7c8fbc",
             "showBullets": true
           },
           "_anchor": "slider2-a"
@@ -295,7 +318,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "21px"
             },
             ".navbar-toggler": {
               "color": "#efefef"
@@ -345,6 +371,9 @@
             },
             ".close-icon::before, .close-icon::after": {
               "background-color": "#efefef"
+            },
+            ".navbar-caption SPAN": {
+              "font-size": "30px"
             }
           },
           "_name": "menu",
@@ -382,8 +411,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Алдея</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>За нас</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#slider2-a\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\"></span>Галерия</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider2-a\">3Д Проект<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider2-d\">Разпределение</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#map2-b\" aria-expanded=\"false\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>Контакти</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\"></a></li>"
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"socicon socicon-amplement mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(184, 49, 47);\"></span>л &nbsp;д &nbsp;е &nbsp;я</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>За нас</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#slider2-a\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\"></span>Галерия</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider2-a\">3Д Проект<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider2-d\">Разпределение</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#map2-b\" aria-expanded=\"false\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>Контакти</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">\u001b\u001b\u001basas</a></li>"
         },
         {
           "_name": "footer1",
@@ -490,7 +519,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
               }
             ],
-            "bgColor": "#7e9b9f",
+            "bgColor": "#475577",
             "showBullets": true
           },
           "_anchor": "slider2-d"
@@ -504,7 +533,7 @@
           "_params": {
             "paddingTop": 4,
             "paddingBottom": 4,
-            "bgColor": "#7e9b9f",
+            "bgColor": "#475577",
             "googleMap": {
               "address": "София, кв. Дървеница",
               "placeId": "ChIJ8T5SRJ2GqkAREiD3kCbv91I",
@@ -512,31 +541,6 @@
               "stateDetails": ""
             }
           }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image1",
-          "_anchor": "image1-9",
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
-              "width": 1400,
-              "link": "index.html#map2-b",
-              "alt": "асаса",
-              "title": "ЕЙ ТАКЪВ ЩЕ СТАНЕШ, КАТО ПОРСНЕШ",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "_params": {
-            "showText": true
-          },
-          "text": ""
         }
       ]
     }

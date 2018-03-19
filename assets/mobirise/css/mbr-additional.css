@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+
 
 
 
@@ -10,11 +11,11 @@ body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
 }
 .btn,
 .alert,
@@ -38,7 +39,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -52,7 +53,13 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.btn {
+  border-radius: 1.6em;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
 }
 .btn-sm,
 .lead a,
@@ -64,13 +71,13 @@ h6,
   font-family: 'Lora', serif;
 }
 .mbr-author-name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .mbr-author-desc {
   font-family: 'Lora', serif;
 }
 .mbr-plan-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
@@ -414,8 +421,24 @@ h6,
   color: #28324e;
 }
 #header1-c .mbr-section-title {
-  color: #28324e;
+  color: #15203e;
   font-family: 'Lora', serif;
+  font-size: 30px;
+}
+#header1-c .mbr-section-lead P {
+  font-size: 25px;
+  color: #28324e;
+}
+#header2-e .mbr-section-text {
+  font-size: 25px;
+  text-align: right;
+}
+#header2-e .mbr-section-title {
+  text-align: right;
+}
+#header2-e .btn {
+  font-family: 'Lora', serif;
+  font-size: 20px;
 }
 #slider2-a .mbr-section-title,
 #slider2-a .mbr-section-lead {
@@ -426,6 +449,8 @@ h6,
 }
 #menu-0 .navbar-caption {
   color: #ffffff;
+  font-family: 'Lora', serif;
+  font-size: 21px;
 }
 #menu-0 .navbar-toggler {
   color: #efefef;
@@ -488,6 +513,9 @@ h6,
 #menu-0 .close-icon::before,
 #menu-0 .close-icon::after {
   background-color: #efefef;
+}
+#menu-0 .navbar-caption SPAN {
+  font-size: 30px;
 }
 #slider2-d .mbr-section-title,
 #slider2-d .mbr-section-lead {
