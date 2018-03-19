@@ -423,7 +423,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#28324e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
