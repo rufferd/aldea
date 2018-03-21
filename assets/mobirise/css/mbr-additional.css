@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
 
 
 
@@ -38,7 +38,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Lora', serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -52,7 +52,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Lora', serif;
 }
 .btn {
   border-radius: 1.6em;
@@ -70,13 +70,13 @@ h6,
   font-family: 'Lora', serif;
 }
 .mbr-author-name {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Lora', serif;
 }
 .mbr-author-desc {
   font-family: 'Lora', serif;
 }
 .mbr-plan-title {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Lora', serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
@@ -416,18 +416,20 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #c0a375;
 }
-#header2-e .mbr-section-text {
-  font-size: 25px;
-  text-align: right;
-  color: #efefef;
-}
-#header2-e .mbr-section-title {
-  text-align: right;
-  color: #efefef;
-}
-#header2-e .btn {
+#header6-g .mbr-section-title {
+  color: #28324e;
   font-family: 'Lora', serif;
+  font-size: 48px;
+  text-align: left;
+}
+#header6-g .mbr-section-text {
+  color: #565656;
   font-size: 20px;
+  text-align: left;
+}
+#header6-g .btn {
+  font-size: 17px;
+  font-family: 'Lora', serif;
 }
 #slider2-a .mbr-section-title,
 #slider2-a .mbr-section-lead {
@@ -442,11 +444,11 @@ h6,
   font-size: 23px;
 }
 #menu-0 .navbar-toggler {
-  color: #efefef;
+  color: #cccccc;
 }
 #menu-0 .link,
 #menu-0 .dropdown-item {
-  color: #efefef;
+  color: #cccccc;
   font-family: 'Lora', serif;
 }
 #menu-0 .link {
@@ -479,7 +481,7 @@ h6,
   background: #28324e;
 }
 #menu-0 .bg-color.transparent .link {
-  color: #efefef;
+  color: #cccccc;
   transition: none;
 }
 #menu-0 .bg-color.transparent.opened .link {
@@ -501,7 +503,7 @@ h6,
 }
 #menu-0 .close-icon::before,
 #menu-0 .close-icon::after {
-  background-color: #efefef;
+  background-color: #cccccc;
 }
 #menu-0 .navbar-caption SPAN {
   font-size: 30px;

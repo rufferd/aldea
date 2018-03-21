@@ -12,7 +12,7 @@
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#b8312f",
-        "titleFont": "Open Sans Condensed",
+        "titleFont": "Lora",
         "subtitleFont": "Lora",
         "textFont": "Lora",
         "isRoundedButtons": true,
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 16,
+    "uniqCompNum": 23,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -41,42 +41,46 @@
       },
       "components": [
         {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28324e",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "48px",
+              "text-align": "left"
+            },
+            ".mbr-section-text": {
+              "color": "#565656",
+              "font-size": "20px",
+              "text-align": "left"
+            },
+            ".btn": {
+              "font-size": "17px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
-          "_styles": {
-            ".mbr-section-text": {
-              "font-size": "25px",
-              "text-align": "right",
-              "color": "#efefef"
-            },
-            ".mbr-section-title": {
-              "text-align": "right",
-              "color": "#efefef"
-            },
-            ".btn": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "20px"
-            }
-          },
-          "_anchor": "header2-e",
+          "_name": "header6",
+          "_anchor": "header6-g",
           "_params": {
             "imageSize": 50,
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1334.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.9",
-            "overlayColor": "#7387b7",
-            "inverse": false,
+            "overlayColor": "#ccc",
+            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": true,
@@ -84,13 +88,13 @@
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/05-1400x787.png",
               "link": "",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": false,
+              "active": true
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -104,9 +108,9 @@
               "size": 250
             }
           },
-          "title": "ЖИЛИЩНА  СГРАДА  1",
-          "text": "Сградата ще разполага с:<br>* едностайни апартаменти;<br>* двустайни апартаменти;<br>* тристайни апартаменти;<br>* партерни апартаменти с прилежащ двор;<br>* паркоместа и гаражи;<br>** вътрешен двор с детски кът.<br><br>Намира се на улица „Георги Русев“, ж.к. Малинова долина в район с ниско жилищно застрояване и бърз достъп до Симеоновско шосе и Околовръстен път. Разполага с панорамен изглед към парк \"Витоша\".  В близост до хипермаркети, заведения за хранене и Студентски град.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#slider2-a\" data-toolbar=\"-mbrBtnMove\">Проект</a>"
+          "title": "ЖИЛИЩНА СГРАДА 1",
+          "text": "Сградата ще разполага с:<br>* едностайни апартаменти;<br>* двустайни апартаменти;<br>* тристайни апартаменти;<br>* партерни апартаменти с прилежащ двор;<br>* паркоместа и гаражи;<br>** вътрешен двор с детски кът.<br><br>Намира се на улица „Георги Русев“, ж.к. Малинова долина в район с ниско жилищно застрояване и бърз достъп до Симеоновско шосе и Околовръстен път. Разполага с панорамен изглед към парк \"Витоша\". В близост до хипермаркети, заведения за хранене и Студентски град.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">Проект</a>"
         },
         {
           "_styles": {
@@ -265,7 +269,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
-            "bgColor": "#8193be",
+            "bgColor": "#ffffff",
             "showBullets": true
           },
           "_anchor": "slider2-a"
@@ -282,10 +286,10 @@
               "font-size": "23px"
             },
             ".navbar-toggler": {
-              "color": "#efefef"
+              "color": "#cccccc"
             },
             ".link, .dropdown-item": {
-              "color": "#efefef",
+              "color": "#cccccc",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
               "font-family": "'Lora', serif"
             },
@@ -308,7 +312,7 @@
               "background": "#28324e"
             },
             ".bg-color.transparent .link": {
-              "color": "#efefef",
+              "color": "#cccccc",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -328,7 +332,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#efefef"
+              "background-color": "#cccccc"
             },
             ".navbar-caption SPAN": {
               "font-size": "30px"
@@ -344,9 +348,9 @@
               "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
               "css": "'Lora', serif"
             },
-            "fontColor": "#efefef",
+            "fontColor": "#cccccc",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -370,7 +374,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"socicon socicon-amplement mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(184, 49, 47);\"></span>л д е я</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>За нас</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#slider2-a\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\"></span>Галерия</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider2-a\">3Д Проект<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider2-d\">Разпределение</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#bottom\" aria-expanded=\"false\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>Контакти</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">\u001b\u001b\u001basas</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>За нас</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#slider2-a\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\"></span>Галерия</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider2-a\">3Д Проект<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider2-d\">Разпределение</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#bottom\" aria-expanded=\"false\"><span class=\"mbri-contact-form mbr-iconfont mbr-iconfont-btn\"></span>Контакти</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">\u001b\u001b\u001basas</a></li>"
         },
         {
           "_name": "footer1",
@@ -396,7 +400,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "&nbsp;Инвеститор: \"Алдея Инвест\" ЕОOД<br>Проектант: \"\"Славов Тауър\" ЕООД<br>За запитване и продажби: Деян Трифонов<br> тел: <b>+359 879 373 520</b><br>e-mail: <a href=\"mailto:office@aldeyainvest.com\"><b>office@aldeyainvest.com</b></a><br>Управител: инж. Панайот Кузов<br>тел: +359 878 685 646<br>©&nbsp;\"Алдеа Инвест\" ЕОOД&nbsp;<br>\u001b\u001b\u001b"
+          "text": "&nbsp;Инвеститор: \"Алдея Инвест\" ЕОOД<br>Проектант: \"\"Славов Тауър\" ЕООД<br>За запитване и продажби: Деян Трифонов<br> тел: <b>+359 988 870 990</b><br>e-mail: <a href=\"mailto:office@aldeyainvest.com\"><b>office@aldeyainvest.com</b></a><br>Управител: инж. Панайот Кузов<br>тел: +359 878 685 646<br>©&nbsp;\"Алдеа Инвест\" ЕОOД<br>"
         },
         {
           "_styles": {
@@ -486,7 +490,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
               }
             ],
-            "bgColor": "#8193be",
+            "bgColor": "#ffffff",
             "showBullets": true
           },
           "_anchor": "slider2-d"
@@ -500,7 +504,7 @@
           "_params": {
             "paddingTop": "4",
             "paddingBottom": 4,
-            "bgColor": "#8193be",
+            "bgColor": "#ffffff",
             "googleMap": {
               "address": "42.636849, 23.339597",
               "placeId": "ChIJIeNXRQSEqkARWTxSJzbx1LM",
