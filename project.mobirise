@@ -48,10 +48,12 @@
           "_styles": {
             ".mbr-section-text": {
               "font-size": "25px",
-              "text-align": "right"
+              "text-align": "right",
+              "color": "#efefef"
             },
             ".mbr-section-title": {
-              "text-align": "right"
+              "text-align": "right",
+              "color": "#efefef"
             },
             ".btn": {
               "font-family": "'Lora', serif",
@@ -103,52 +105,8 @@
             }
           },
           "title": "ЖИЛИЩНА  СГРАДА  1",
-          "text": "Сградата ще разполага с:    <br>* едностайни апартаменти;<br>* двустайни апартаменти;<br>* тристайни апартаменти; <br>* партерни апартаменти с прилежащ двор;<br>*паркоместа и гаражи.<br><br>Намира на а улица \"Георги Стратиев\" в район с ниско жилищно застрояване и бърз достъп до Околовръстен път. Разполага с панорамен изглед към парк \"Витоша\".  В близост до хипермаркети и заведения за хранене.<br>",
+          "text": "Сградата ще разполага с:<br>* едностайни апартаменти;<br>* двустайни апартаменти;<br>* тристайни апартаменти;<br>* партерни апартаменти с прилежащ двор;<br>* паркоместа и гаражи;<br>** вътрешен двор с детски кът.<br><br>Намира се на улица „Георги Русев“, ж.к. Малинова долина в район с ниско жилищно застрояване и бърз достъп до Симеоновско шосе и Околовръстен път. Разполага с панорамен изглед към парк \"Витоша\".  В близост до хипермаркети, заведения за хранене и Студентски град.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#slider2-a\" data-toolbar=\"-mbrBtnMove\">Проект</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_styles": {
-            ".mbr-section-lead": {
-              "color": "#28324e"
-            },
-            ".mbr-section-title": {
-              "color": "#15203e",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "30px"
-            },
-            ".mbr-section-lead P": {
-              "font-size": "25px",
-              "color": "#28324e"
-            }
-          },
-          "_anchor": "header1-c",
-          "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
-            "bgColor": "#7e9b9f",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.9",
-            "overlayColor": "#7387b7",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "ЖИЛИЩНА &nbsp;СГРАДА &nbsp;1",
-          "text": "<p>Сградата ще разполага с:&nbsp;&nbsp;&nbsp;&nbsp;<br>* едностайни апартаменти;<br>* двустайни апартаменти;<br>* тристайни апартаменти; <br>* партерни апартаменти с прилежащ двор;<br>*паркоместа и гаражи.</p><p>Сградата е се намира на а улица \"Георги Стратиев\" в район с ниско жилищно застрояване и бърз достъп до Околовръстен път. Разполага с панорамен изглед към парк \"Витоша\". &nbsp;В близост до хипермаркети и заведения за хранене.</p><br><p><br><br><br></p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_styles": {
@@ -416,6 +374,15 @@
         },
         {
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "right",
+              "color": "#cccccc"
+            },
+            "B": {
+              "color": "#c49146"
+            }
+          },
           "_anchor": "footer1-2",
           "_params": {
             "paddingTop": 2,
@@ -429,12 +396,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "&nbsp;Инвеститор: \"Алдеа Инвест\" ЕОOД<br>Проектант: \"\"Славов Тауър\" ЕОOД\" ЕООД<br>За запитване и продажби:<br>Тел: +359 878 685 646<br>e-mail: office@aldeyainvest.com<br>©&nbsp;\"Алдеа Инвест\" ЕОOД&nbsp;<br>\u001b\u001b\u001b",
-          "_styles": {
-            "P": {
-              "text-align": "right"
-            }
-          }
+          "text": "&nbsp;Инвеститор: \"Алдея Инвест\" ЕОOД<br>Проектант: \"\"Славов Тауър\" ЕООД<br>За запитване и продажби: Деян Трифонов<br> тел: <b>+359 879 373 520</b><br>e-mail: <a href=\"mailto:office@aldeyainvest.com\"><b>office@aldeyainvest.com</b></a><br>Управител: инж. Панайот Кузов<br>тел: +359 878 685 646<br>©&nbsp;\"Алдеа Инвест\" ЕОOД&nbsp;<br>\u001b\u001b\u001b"
         },
         {
           "_styles": {
@@ -540,8 +502,8 @@
             "paddingBottom": 4,
             "bgColor": "#8193be",
             "googleMap": {
-              "address": "улица „Георги Русев“, София",
-              "placeId": "ChIJfUSk0wWEqkARijCvRIZ5M0g",
+              "address": "42.636849, 23.339597",
+              "placeId": "ChIJIeNXRQSEqkARWTxSJzbx1LM",
               "state": "ok",
               "stateDetails": ""
             }

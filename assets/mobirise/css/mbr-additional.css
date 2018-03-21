@@ -6,7 +6,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -420,25 +419,15 @@ h6,
 #header2-e .mbr-section-text {
   font-size: 25px;
   text-align: right;
+  color: #efefef;
 }
 #header2-e .mbr-section-title {
   text-align: right;
+  color: #efefef;
 }
 #header2-e .btn {
   font-family: 'Lora', serif;
   font-size: 20px;
-}
-#header1-c .mbr-section-lead {
-  color: #28324e;
-}
-#header1-c .mbr-section-title {
-  color: #15203e;
-  font-family: 'Lora', serif;
-  font-size: 30px;
-}
-#header1-c .mbr-section-lead P {
-  font-size: 25px;
-  color: #28324e;
 }
 #slider2-a .mbr-section-title,
 #slider2-a .mbr-section-lead {
@@ -519,6 +508,10 @@ h6,
 }
 #footer1-2 P {
   text-align: right;
+  color: #cccccc;
+}
+#footer1-2 B {
+  color: #c49146;
 }
 #slider2-d .mbr-section-title,
 #slider2-d .mbr-section-lead {
