@@ -51,7 +51,7 @@
               "text-align": "left"
             },
             ".mbr-section-text": {
-              "color": "#565656",
+              "color": "#28324e",
               "font-size": "20px",
               "text-align": "left"
             },
@@ -400,7 +400,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "&nbsp;Инвеститор: \"Алдея Инвест\" ЕОOД<br>Проектант: \"\"Славов Тауър\" ЕООД<br>За запитване и продажби: Деян Трифонов<br> тел: <b>+359 988 870 990</b><br>e-mail: <a href=\"mailto:office@aldeyainvest.com\"><b>office@aldeyainvest.com</b></a><br>Управител: инж. Панайот Кузов<br>тел: +359 878 685 646<br>©&nbsp;\"Алдеа Инвест\" ЕОOД<br>"
+          "text": "&nbsp;Инвеститор: \"Алдея Инвест\" ЕОOД<br>Проектант: \"\"Славов Тауър\" ЕООД<br>За запитване и продажби: Деян Трифонов<br> тел: <b>+359 988 870 990</b><br>e-mail: <a href=\"mailto:office@aldeyainvest.com\"><b>office@aldeyainvest.com</b></a><br>Управител: инж. Панайот Кузов<br>тел: +359 878 685 646<br>©&nbsp;\"Алдея Инвест\" ЕОOД<br>"
         },
         {
           "_styles": {
